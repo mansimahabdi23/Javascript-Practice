@@ -9,19 +9,16 @@ console.log(`Your total pay is ${pencilPrice + eraserPrice} rupees`);
 
 // ===================== PRACTICE QUESTION =======================
 // for traffic signal
-let color = "red";
+let color = "blue";
 if (color === "red") {
   console.log("Stop! Light color is red");
-}
-
-if (color === "yellow") {
+} else if (color === "yellow") {
   console.log("Slow down! Light color is yellow");
-}
-
-if (color === "green") {
+} else if (color === "green") {
   console.log("Go! Light color is green");
+} else {
+  console.log("Traffic light is broken");
 }
-
 // ==================== Else if =======================
 
 let marks = 75;
@@ -34,4 +31,23 @@ if (marks >= 80) {
   console.log("Grade B");
 } else if (marks < 33) {
   console.log("Grade F");
+}
+
+// ==================== Practice questions =======================
+/*
+Qs. create a system to calculate popcorn price based on the size of the size customer asked for:
+
+*/
+
+let size = "M";
+if (size === "XL") {
+  console.log("Price is Rs.250");
+} else if (size === "L") {
+  console.log("Price is Rs.200");
+} else if (size === "M") {
+  console.log("Price is Rs.100");
+} else if (size === "S") {
+  console.log("Price is Rs.50");
+} else {
+  console.log("Invalid size");
 }
