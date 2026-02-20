@@ -49,3 +49,34 @@ if (size === "XL") {
 } else {
   console.log("price is Rs.50");
 }
+
+// Logical operators
+let mark = 75;
+if (!(mark < 33)) {
+  console.log("Pass");
+  console.log("Grade A+");
+}
+
+let result = 75;
+if ((result > 33 && result <= 80) || !false) {
+  console.log("pass");
+}
+
+// Practice question
+// Qs. A "GOOD STRING" is a string that starts with the letter 'a' and has a lenght > 3. Write a program to check if the string is a good string or not.
+
+let str = "asphalt";
+if (str[0] === "a" && str.length > 3) {
+  console.log("Good string");
+} else {
+  console.log("Not a good string");
+}
+
+//Qs2
+let num = 12;
+
+if (num % 3 === 0 && (num + 1 == 15 || num - 1 == 11)) {
+  console.log("safe");
+} else {
+  console.log("unsafe");
+}
