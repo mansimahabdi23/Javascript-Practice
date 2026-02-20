@@ -80,3 +80,12 @@ if (num % 3 === 0 && (num + 1 == 15 || num - 1 == 11)) {
 } else {
   console.log("unsafe");
 }
+
+// Alerts
+console.log("This is a console log");
+console.error("This is an error message");
+console.warn("This is a warning message");
+
+// prompts
+let roll = prompt("Enter your roll number:");
+console.log("Your roll number is:", roll);
