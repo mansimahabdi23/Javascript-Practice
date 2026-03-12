@@ -5,4 +5,9 @@
 
 // Arrays
 let student = ["John", "Jane", "Doe"];
-// console
+// mutable arrays
+student[0] = "Jack";
+console.log(student);
+student[10] = "Smith";
+console.log(student);
+
