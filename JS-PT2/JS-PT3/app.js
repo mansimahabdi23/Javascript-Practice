@@ -25,3 +25,7 @@ console.log(student);
 //shift
 student.shift();
 console.log(student);
+
+//taking instagram followers as an example, blocking a person also would remove it from followers list
+let followers = ["Alice", "Bob", "Charlie"];
+let block = followers.shift(); // blocking Alice
